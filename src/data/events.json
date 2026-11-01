@@ -1,0 +1,185 @@
+[
+  {
+    "id": "arc-1",
+    "type": "arc",
+    "title": "The Tumultuous First Day",
+    "label": "Arc 1",
+    "meta": "Anime S1 Ep. 1-3 · LN vol. 1",
+    "source": ["anime", "ln"],
+    "releaseOrder": 1,
+    "chronologicalOrder": 1,
+    "status": "completed",
+    "summary": "Subaru is pulled into another world with nothing but his phone. After helping a silver-haired girl search for her stolen insignia, he is killed, and wakes up exactly where he started."
+  },
+  {
+    "id": "if-pride",
+    "type": "if",
+    "title": "Pride IF",
+    "branchesFrom": "arc-1",
+    "source": ["ln"],
+    "decision": "After numerous deaths at the hands of thugs in the capital, Subaru decides not to call for Reinhardt's help and does not ask to be saved."
+  },
+  {
+    "id": "arc-2",
+    "type": "arc",
+    "title": "The Turbulent Week",
+    "label": "Arc 2",
+    "meta": "Anime S1 Ep. 4-11 · LN vol. 2-3",
+    "source": ["anime", "ln"],
+    "releaseOrder": 2,
+    "chronologicalOrder": 2,
+    "status": "completed",
+    "summary": "Subaru wakes in the mansion of Margrave Roswaal after a near-fatal wound and asks to stay on as a worker. For a few days, life is almost peaceful, but that calm doesn't last."
+  },
+  {
+    "id": "if-wrath",
+    "type": "if",
+    "title": "Wrath IF",
+    "branchesFrom": "arc-2",
+    "source": ["ln"],
+    "decision": "Subaru succumbs to paranoia and refuses to trust those around him, due to the accumulated burden of deaths and suffering."
+  },
+  {
+    "id": "arc-3",
+    "type": "arc",
+    "title": "Return to the Royal Capital",
+    "label": "Arc 3",
+    "meta": "Anime S1 Ep. 12-25 · LN vol. 4-9",
+    "source": ["anime", "ln"],
+    "releaseOrder": 3,
+    "chronologicalOrder": 3,
+    "status": "completed",
+    "summary": "After the mansion, Subaru heads back to the capital to find answers. Instead he hits rock bottom, and has to decide who he is without anyone to lean on."
+  },
+  {
+    "id": "if-sloth",
+    "type": "if",
+    "title": "Sloth IF",
+    "branchesFrom": "arc-3",
+    "source": ["ln"],
+    "decision": "When the situation in the capital becomes unbearable, Subaru suggests that he and Rem run away together to the ends of the earth."
+  },
+  {
+    "id": "arc-4",
+    "type": "arc",
+    "title": "The Everlasting Contract",
+    "label": "Arc 4",
+    "meta": "Anime S2 · LN vol. 10-15",
+    "source": ["anime", "ln"],
+    "releaseOrder": 4,
+    "chronologicalOrder": 4,
+    "status": "completed",
+    "summary": "Subaru and Emilia travel to a hidden village where a trial awaits. Each step forward forces them to face the past they have been avoiding."
+  },
+  {
+    "id": "if-greed",
+    "type": "if",
+    "title": "Greed IF",
+    "branchesFrom": "arc-4",
+    "source": ["ln"],
+    "decision": "During the trials at the Sanctuary, Subaru forms a contract with Echidna (the Witch of Greed)."
+  },
+  {
+    "id": "arc-5",
+    "type": "arc",
+    "title": "The Stars That Engrave History",
+    "label": "Arc 5",
+    "meta": "Anime S3 · LN vol. 16-20",
+    "source": ["anime", "ln"],
+    "releaseOrder": 5,
+    "chronologicalOrder": 5,
+    "status": "completed",
+    "summary": "A year after the Sanctuary, Emilia's camp is lured to the watergate city of Priestella, where rival camps meet. When the Witch Cult attacks, Subaru must unite them all to save the city."
+  },
+  {
+    "id": "arc-6",
+    "type": "arc",
+    "title": "The Corridor of Memories",
+    "label": "Arc 6",
+    "meta": "Anime S4 · LN vol. 21-25",
+    "source": ["anime", "ln"],
+    "releaseOrder": 6,
+    "chronologicalOrder": 6,
+    "status": "completed",
+    "summary": "Emilia's camp heads to the Pleiades Watchtower in search of a Sage's knowledge. Amid trials, witchbeasts and a possible traitor, Subaru suffers a sudden loss of memory."
+  },
+  {
+    "id": "if-gluttony",
+    "type": "if",
+    "title": "Gluttony IF",
+    "branchesFrom": "arc-6",
+    "source": ["ln"],
+    "decision": "Instead of choosing acceptance and trust in his allies, Subaru becomes obsessed with restoring his own \"self\" at any cost."
+  },
+  {
+    "id": "arc-7",
+    "type": "arc",
+    "title": "The Land of Wolves",
+    "label": "Arc 7",
+    "meta": "LN vol. 26-33",
+    "source": ["ln"],
+    "releaseOrder": 7,
+    "chronologicalOrder": 7,
+    "status": "completed",
+    "summary": "Subaru wakes in the jungles of the Vollachia Empire and helps a deposed emperor named Abel reclaim his throne. But signs of a looming disaster begin to appear."
+  },
+  {
+    "id": "arc-8",
+    "type": "arc",
+    "title": "Vincent Vollachia",
+    "label": "Arc 8",
+    "meta": "LN vol. 34-38",
+    "source": ["ln"],
+    "releaseOrder": 8,
+    "chronologicalOrder": 8,
+    "status": "completed",
+    "summary": "The Great Disaster begins. Subaru and his allies retreat from the Imperial Capital, fighting the undead and trying to stop the destruction of the empire."
+  },
+  {
+    "id": "arc-9",
+    "type": "arc",
+    "title": "Light of the Nameless Star",
+    "label": "Arc 9",
+    "meta": "LN vol. 39-43",
+    "source": ["ln"],
+    "releaseOrder": 9,
+    "chronologicalOrder": 9,
+    "status": "completed",
+    "summary": "With Vollachia rebuilding, the Lugunicans start for home. At the Pleiades Watchtower, Subaru lands in his worst predicament yet, captured by Al."
+  },
+  {
+    "id": "arc-10",
+    "type": "arc",
+    "title": "The Land of the Lion Kings",
+    "label": "Arc 10",
+    "meta": "LN vol. 44-46+",
+    "source": ["ln"],
+    "releaseOrder": 10,
+    "chronologicalOrder": 10,
+    "status": "ongoing",
+    "summary": "After Aldebaran's failed scheme, Subaru heads to the Royal Capital to find a Sin Archbishop who holds stolen names and memories, while a hidden conspiracy threatens the Kingdom."
+  },
+  {
+    "id": "ova-memory-snow",
+    "type": "ova",
+    "title": "Memory Snow",
+    "label": "OVA",
+    "meta": "Anime OVA · 2018",
+    "source": ["anime"],
+    "releaseOrder": 3.1,
+    "chronologicalOrder": 2.5,
+    "summary": "While preparing a date with Emilia, Subaru scouts the nearby village for the perfect spot. Then a sudden cold sweeps the mansion, and the date becomes the least of his worries."
+  },
+  {
+    "id": "ova-frozen-bond",
+    "type": "ova",
+    "title": "The Frozen Bond",
+    "label": "OVA",
+    "meta": "Anime OVA · 2019",
+    "source": ["anime"],
+    "releaseOrder": 3.2,
+    "chronologicalOrder": 0,
+    "adaptationOf": "Re:Zero Prequel: Bonds of Ice",
+    "summary": "In the frozen Elior Forest, young Emilia lives with the great spirit Puck, shunned for her looks. When the Arbitrator Melakuera appears, her right to stay alive is questioned."
+  }
+]
