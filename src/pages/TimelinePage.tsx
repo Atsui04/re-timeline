@@ -1,5 +1,11 @@
+import TimelineIntro from "../components/TimelineIntro";
+
 function TimelinePage() {
-  return <div></div>;
+  return (
+    <div>
+      <TimelineIntro />
+    </div>
+  );
 }
 
 export default TimelinePage;
