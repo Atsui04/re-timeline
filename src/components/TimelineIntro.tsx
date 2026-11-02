@@ -4,7 +4,7 @@ function TimelineIntro() {
       <h1 className="text-heading-main">
         <span className="text-accent">Re</span>:Zero Timeline
       </h1>
-      <p className="text-body text-fg-muted w-160">
+      <p className="text-body text-fg-muted max-w-160">
         An interactive timeline of the Re:Zero universe. Switch between release
         and chronological order, and reveal IF stories branching from the main
         arcs.
