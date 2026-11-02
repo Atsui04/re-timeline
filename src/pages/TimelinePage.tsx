@@ -1,10 +1,12 @@
 import TimelineIntro from "../components/TimelineIntro";
+import ArcCard from "../components/timeline/ArcCard";
 
 function TimelinePage() {
   return (
-    <div>
+    <>
       <TimelineIntro />
-    </div>
+      <ArcCard />
+    </>
   );
 }
 
