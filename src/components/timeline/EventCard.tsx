@@ -1,9 +1,9 @@
 import { SOURCE_LABELS } from "../../constants";
-import { isArc, type Arc, type Ova } from "../../types";
+import { isArc, type MainEvent } from "../../types";
 import Badge from "../ui/Badge";
 
 interface EventCardProps {
-  event: Arc | Ova;
+  event: MainEvent;
 }
 
 function EventCard({ event }: EventCardProps) {
