@@ -1,18 +1,18 @@
 import TimelineIntro from "../components/TimelineIntro";
-import ArcCard from "../components/timeline/ArcCard";
+import EventCard from "../components/timeline/EventCard";
 import { events } from "../data";
-import { isArc } from "../types";
+import { isMainEvent } from "../types";
 
 function TimelinePage() {
-  const arcs = events.filter(isArc);
+  const mainEvents = events.filter(isMainEvent);
 
   return (
     <>
       <TimelineIntro />
       <ol>
-        {arcs.map((arc) => (
-          <li className="pb-6" key={arc.id}>
-            <ArcCard arc={arc} />
+        {mainEvents.map((e) => (
+          <li className="pb-6" key={e.id}>
+            <EventCard event={e} />
           </li>
         ))}
       </ol>

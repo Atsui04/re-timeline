@@ -1,12 +1,15 @@
 export type TimelineEvent = Arc | IfStory | Ova;
 
+export type MainEvent = Arc | Ova;
+
 export type Source = "anime" | "ln";
 
 export type ArcStatus = "completed" | "ongoing";
 
 export const isArc = (e: TimelineEvent): e is Arc => e.type === "arc";
 export const isIf = (e: TimelineEvent): e is IfStory => e.type === "if";
-export const isOva = (e: TimelineEvent): e is Ova => e.type === "ova";
+export const isMainEvent = (e: TimelineEvent): e is MainEvent =>
+  e.type !== "if";
 
 export interface Arc {
   id: string;
