@@ -6,6 +6,8 @@ export type Source = "anime" | "ln";
 
 export type ArcStatus = "completed" | "ongoing";
 
+export type Order = "releaseOrder" | "chronologicalOrder";
+
 export const isArc = (e: TimelineEvent): e is Arc => e.type === "arc";
 export const isIf = (e: TimelineEvent): e is IfStory => e.type === "if";
 export const isMainEvent = (e: TimelineEvent): e is MainEvent =>
