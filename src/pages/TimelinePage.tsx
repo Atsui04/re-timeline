@@ -1,9 +1,12 @@
-import TimelineIntro from "../components/TimelineIntro";
-import { events } from "../data";
-import { isIf, isMainEvent, type Order } from "../types";
-import TimelineRow from "../components/timeline/TimelineRow";
 import { useState } from "react";
+
+import { events } from "../data";
+
+import { isIf, isMainEvent, type Order } from "../types";
 import { filterBySource, getBranches, sortByOrder } from "../utils/timeline";
+
+import PageIntro from "../components/layout/PageIntro";
+import TimelineRow from "../components/timeline/TimelineRow";
 import TimelineFilters from "../components/timeline/TimelineFilters";
 
 const mainEvents = events.filter(isMainEvent);
@@ -28,7 +31,16 @@ function TimelinePage() {
   return (
     <>
       <div className="flex flex-col gap-8">
-        <TimelineIntro />
+        <PageIntro
+          title={
+            <>
+              <span className="text-accent">Re</span>:Zero Timeline
+            </>
+          }
+          description="An interactive timeline of the Re:Zero universe. Switch between release
+        and chronological order, and reveal IF stories branching from the main
+        arcs."
+        />
         <TimelineFilters
           currentOrder={order}
           onOrder={setOrder}
