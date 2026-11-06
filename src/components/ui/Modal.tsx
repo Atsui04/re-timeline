@@ -1,4 +1,5 @@
 import { useEffect, useRef, type ReactNode } from "react";
+import { modalId } from "../../constants";
 
 interface ModalProps {
   isOpen: boolean;
@@ -25,12 +26,13 @@ function Modal({ isOpen, onClose, children }: ModalProps) {
 
   return (
     <dialog
+      aria-labelledby={modalId}
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
       onClose={onClose}
       ref={dialogRef}
-      className="bg-surface text-fg backdrop:bg-main/70 border-border m-auto max-h-180 w-full max-w-160 scrollbar-gutter-stable overflow-hidden rounded-2xl border open:flex open:flex-col"
+      className="bg-surface text-fg backdrop:bg-main/70 border-border m-auto max-h-180 w-full max-w-160 overflow-hidden rounded-2xl border open:flex open:flex-col"
     >
       <div className="relative flex min-h-0 flex-1 flex-col">
         <button
@@ -54,7 +56,7 @@ function Modal({ isOpen, onClose, children }: ModalProps) {
             />
           </svg>
         </button>
-        <div className="scrollbar-thumb-border min-h-0 flex-1 scrollbar-thin scrollbar-track-transparent overflow-y-auto p-8">
+        <div className="scrollbar-thumb-border flex min-h-0 flex-1 scrollbar-thin scrollbar-track-transparent flex-col gap-6 overflow-y-auto p-8">
           {children}
         </div>
       </div>
