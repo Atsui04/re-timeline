@@ -90,6 +90,8 @@
 
 html {
   scrollbar-gutter: stable;
+  scrollbar-width: auto;
+  scrollbar-color: var(--color-border) var(--color-main);
   color-scheme: dark;
 }
 
