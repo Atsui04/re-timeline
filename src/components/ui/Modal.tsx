@@ -1,5 +1,5 @@
 import { useEffect, useRef, type ReactNode } from "react";
-import { modalId } from "../../constants";
+import { MODAL_TITLE_ID } from "../../constants";
 
 interface ModalProps {
   isOpen: boolean;
@@ -26,7 +26,7 @@ function Modal({ isOpen, onClose, children }: ModalProps) {
 
   return (
     <dialog
-      aria-labelledby={modalId}
+      aria-labelledby={MODAL_TITLE_ID}
       onClick={(e) => {
         if (e.target === e.currentTarget) onClose();
       }}
