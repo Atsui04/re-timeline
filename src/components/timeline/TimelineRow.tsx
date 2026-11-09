@@ -5,9 +5,16 @@ import IfCard from "./IfCard";
 interface TimelineRowProps {
   event: MainEvent;
   branches: IfStory[];
+  selectedId: string | null;
+  onSelect: (arcId: string) => void;
 }
 
-function TimelineRow({ event, branches }: TimelineRowProps) {
+function TimelineRow({
+  event,
+  branches,
+  selectedId,
+  onSelect,
+}: TimelineRowProps) {
   return (
     <li className="group relative pl-10">
       <span
@@ -23,9 +30,14 @@ function TimelineRow({ event, branches }: TimelineRowProps) {
         className="bg-border pointer-events-none absolute top-9.75 left-4 h-0.5 w-6"
       ></span>
       <div className="flex flex-col gap-3 pb-6 group-last:pb-0">
-        <EventCard event={event} />
+        <EventCard selectedId={selectedId} onSelect={onSelect} event={event} />
         {branches.map((branch) => (
-          <IfCard key={branch.id} ifStory={branch} />
+          <IfCard
+            key={branch.id}
+            selectedId={selectedId}
+            ifStory={branch}
+            onSelect={onSelect}
+          />
         ))}
       </div>
     </li>

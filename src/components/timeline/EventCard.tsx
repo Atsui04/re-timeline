@@ -4,11 +4,21 @@ import Badge from "../ui/Badge";
 
 interface EventCardProps {
   event: MainEvent;
+  selectedId: string | null;
+  onSelect: (arcId: string) => void;
 }
 
-function EventCard({ event }: EventCardProps) {
+function EventCard({ event, selectedId, onSelect }: EventCardProps) {
+  const isSelected = event.id === selectedId;
+
+  const defaultCard = "bg-surface border-border";
+
+  const activeCard = "bg-surface-light border-accent";
+
   return (
-    <article className="bg-surface border-border hover:border-accent flex cursor-pointer flex-col gap-4 rounded-xl border p-6 transition-colors duration-200">
+    <article
+      className={`hover:border-accent relative flex flex-col gap-4 rounded-xl border p-6 transition-colors duration-200 ${isSelected ? activeCard : defaultCard}`}
+    >
       <div className="flex flex-col gap-1">
         <div className="flex items-start justify-between gap-4">
           <h2 className="text-heading-arc text-fg">
@@ -28,6 +38,12 @@ function EventCard({ event }: EventCardProps) {
         <p className="text-small-regular text-fg-muted">{event.meta}</p>
       </div>
       <p className="text-body text-fg-muted max-w-180">{event.summary}</p>
+      <button
+        aria-haspopup="dialog"
+        aria-label={`Open details: ${event.title}`}
+        onClick={() => onSelect(event.id)}
+        className="focus-visible:outline-accent absolute inset-0 cursor-pointer rounded-xl focus-visible:outline-2 focus-visible:outline-offset-6"
+      ></button>
     </article>
   );
 }
