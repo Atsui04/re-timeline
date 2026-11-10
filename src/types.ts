@@ -24,6 +24,8 @@ export interface Arc {
   chronologicalOrder: number;
   status: ArcStatus;
   summary: string;
+  description?: string;
+  keyEvents?: string[];
 }
 
 export interface IfStory {
@@ -33,6 +35,8 @@ export interface IfStory {
   branchesFrom: string;
   source: Source[];
   decision: string;
+  description?: string;
+  consequences?: string[];
 }
 
 export interface Ova {
@@ -46,4 +50,6 @@ export interface Ova {
   chronologicalOrder: number;
   adaptationOf?: string;
   summary: string;
+  description?: string;
+  keyEvents?: string[];
 }
