@@ -9,7 +9,14 @@
     "releaseOrder": 1,
     "chronologicalOrder": 1,
     "status": "completed",
-    "summary": "Subaru is pulled into another world with nothing but his phone. After helping a silver-haired girl search for her stolen insignia, he is killed, and wakes up exactly where he started."
+    "summary": "Subaru is pulled into another world with nothing but his phone and bag of groceries. After helping a silver-haired girl search for her stolen insignia, he is killed, and wakes up exactly where he started.",
+    "description": "Subaru is on his way home from a convenience store when he is suddenly transported to the Kingdom of Lugunica. Sure he must have been given great powers, he is quickly proven wrong when a group of thugs beats him up. A silver-haired girl with amethyst eyes steps in, and Subaru offers to help her track down a thief. When the search ends in a double murder, he finds himself back before it all began, holding a power he calls Return by Death. He resolves to use it to save the girl from the fate she was meant to meet.",
+    "keyEvents": [
+      "Subaru is transported to the Kingdom of Lugunica and beaten by thugs.",
+      "A silver-haired girl rescues him, and he offers to help find her stolen insignia.",
+      "During the search, both of them are killed by an unknown assailant.",
+      "Subaru returns to the moment before they met and resolves to save her."
+    ]
   },
   {
     "id": "if-pride",
