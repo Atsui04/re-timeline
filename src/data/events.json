@@ -36,7 +36,14 @@
     "releaseOrder": 2,
     "chronologicalOrder": 2,
     "status": "completed",
-    "summary": "Subaru wakes in the mansion of Margrave Roswaal after a near-fatal wound and asks to stay on as a worker. For a few days, life is almost peaceful, but that calm doesn't last."
+    "summary": "Subaru wakes in the mansion of Margrave Roswaal after a near-fatal wound and asks to stay on as a worker. For a few days, life is almost peaceful, but that calm doesn't last.",
+    "description": "While working as a butler alongside the twin maids Ram and Rem, Subaru unexpectedly finds himself murdered in his sleep. Determined to find the culprit, he uses his loops to earn everyone's trust and hunt down the would-be assassin lurking within the estate.",
+    "keyEvents": [
+      "Subaru awakens at Roswaal Manor and starts working as a butler alongside the twin maids, Ram and Rem.",
+      "After experiencing multiple mysterious deaths in his sleep, he discovers that a fatal curse is targeting him.",
+      "He traces the source to a nearby village and ventures into the dangerous Mabeast-infested forest alongside Rem and Beatrice.",
+      "Subaru confronts the beasts, saves the lost children, and breaks the curse, finally escaping the deadly loop."
+    ]
   },
   {
     "id": "if-wrath",
