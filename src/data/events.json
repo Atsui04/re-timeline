@@ -201,7 +201,14 @@
     "releaseOrder": 9,
     "chronologicalOrder": 9,
     "status": "completed",
-    "summary": "With Vollachia rebuilding, the Lugunicans start for home. At the Pleiades Watchtower, Subaru lands in his worst predicament yet, captured by Al."
+    "summary": "With Vollachia rebuilding, the Lugunicans start for home. At the Pleiades Watchtower, Subaru lands in his worst predicament yet, captured by Al.",
+    "description": "As Vollachia begins to rebuild after the Great Disaster, the Lugunican delegation prepares to head home. However, an escort mission to the Pleiades Watchtower takes a shocking turn when Aldebaran turns against his allies, capturing Subaru in a desperate bid to reshape destiny at any cost.",
+    "keyEvents": [
+      "Following Priscilla's death and the end of the war, the Lugunican camps assist in clearing remaining threats before departing Vollachia.",
+      "Subaru and his companions accompany Al to the Pleiades Watchtower to inspect a specific Book of the Dead.",
+      "Al betrays the group, ambushing and sealing Subaru away to fulfill a cryptic, world-altering objective.",
+      "With Subaru trapped, Al sets out toward Kararagi with his allies, forcing the remaining camps to launch a high-stakes rescue."
+    ]
   },
   {
     "id": "arc-10",
