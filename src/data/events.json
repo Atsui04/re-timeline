@@ -117,7 +117,14 @@
     "releaseOrder": 5,
     "chronologicalOrder": 5,
     "status": "completed",
-    "summary": "A year after the Sanctuary, Emilia's camp is lured to the watergate city of Priestella, where rival camps meet. When the Witch Cult attacks, Subaru must unite them all to save the city."
+    "summary": "A year after the Sanctuary, Emilia's camp is lured to the watergate city of Priestella, where rival camps meet. When the Witch Cult attacks, Subaru must unite them all to save the city.",
+    "description": "A year of peaceful preparation ends when all five Royal Selection candidates assemble in the Watergate City of Priestella under suspicious pretenses. The gathering turns into an all-out war when multiple Sin Archbishops launch a coordinated siege, forcing Subaru to rally former rivals into a unified defense force to reclaim the city.",
+    "keyEvents": [
+      "The Emilia Camp arrives at the Watergate City of Priestella and unexpectedly reunites with the other four candidate camps.",
+      "The Witch Cult launches a surprise attack, with multiple Sin Archbishops seizing control of key city sluice gates and towers.",
+      "Subaru uses the city's broadcast system to deliver an inspiring speech that rallies the demoralized citizens and candidates.",
+      "The allied forces execute a coordinated counteroffensive across the city to defeat the Archbishops and liberate Priestella."
+    ]
   },
   {
     "id": "arc-6",
