@@ -90,7 +90,14 @@
     "releaseOrder": 4,
     "chronologicalOrder": 4,
     "status": "completed",
-    "summary": "Subaru and Emilia travel to a hidden village where a trial awaits. Each step forward forces them to face the past they have been avoiding."
+    "summary": "Subaru and Emilia travel to a hidden village where a trial awaits. Each step forward forces them to face the past they have been avoiding.",
+    "description": "Retreating to the isolated Sanctuary to find answers, Subaru and Emilia discover a trapped population and a barrier that requires passing ancient Trials to break. As secrets about Roswaal, the Witches, and the Sanctuary come to light, Subaru must battle threats on two fronts: fatal strikes at the manor and a terrifying Great Witchbeast.",
+    "keyEvents": [
+      "Subaru and Emilia travel to the mysterious Sanctuary, finding the villagers trapped behind a ancient magical barrier.",
+      "Emilia and Subaru undertake the grueling Trials of the Sanctuary, forcing them to relive and face their deeply buried pasts.",
+      "Subaru endures nightmare loops involving lethal attacks at Roswaal Manor and the devastating arrival of the Great Rabbit.",
+      "Through trust, strategic coordination, and emotional growth, Subaru unites his allies to defeat the threats and free the Sanctuary."
+    ]
   },
   {
     "id": "if-greed",
