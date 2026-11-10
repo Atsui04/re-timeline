@@ -136,7 +136,14 @@
     "releaseOrder": 6,
     "chronologicalOrder": 6,
     "status": "completed",
-    "summary": "Emilia's camp heads to the Pleiades Watchtower in search of a Sage's knowledge. Amid trials, witchbeasts and a possible traitor, Subaru suffers a sudden loss of memory."
+    "summary": "Emilia's camp heads to the Pleiades Watchtower in search of a Sage's knowledge. Amid trials, witchbeasts and a possible traitor, Subaru suffers a sudden loss of memory.",
+    "description": "Seeking a cure for the victims left broken after the battle of Priestella, Subaru and his allies journey across a deadly desert to the mysterious Pleiades Watchtower. Inside the towering labyrinth, they are forced to navigate grueling ancient tests, bloodthirsty beasts, and deadly internal suspicions while Subaru is struck by sudden amnesia.",
+    "keyEvents": [
+      "Subaru and the alliance cross the treacherous Augria Sand Dunes to reach the legendary Pleiades Watchtower.",
+      "The group meets Shaula, the guardian of the tower, and begins facing a set of complex, trial-based challenges.",
+      "Subaru mysteriously loses all his memories of this world, throwing the group into chaos and paranoia.",
+      "Besieged by witchbeasts and the Sin Archbishops of Gluttony, Subaru struggles to regain his resolve and survive the lethal tower loops."
+    ]
   },
   {
     "id": "if-gluttony",
