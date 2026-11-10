@@ -63,7 +63,14 @@
     "releaseOrder": 3,
     "chronologicalOrder": 3,
     "status": "completed",
-    "summary": "After the mansion, Subaru heads back to the capital to find answers. Instead he hits rock bottom, and has to decide who he is without anyone to lean on."
+    "summary": "After the mansion, Subaru heads back to the capital to find answers. Instead he hits rock bottom, and has to decide who he is without anyone to lean on.",
+    "description": "Traveling to the Royal Capital for the start of the Royal Selection, Subaru makes a costly public blunder that strains his relationship with Emilia, leaving him behind to face his deepest insecurities. Supported only by Rem, he must rally rival political camps to face terrifying new threats: the dreaded White Whale and the zealous Witch Cult.",
+    "keyEvents": [
+      "Subaru attends the Royal Selection ceremony in the capital, but a humiliating public outburst leads to a falling out with Emilia.",
+      "Left behind in the city, he confronts intense personal despair while news of approaching danger reaches Roswaal Manor.",
+      "He forges fragile alliances with the other candidate camps and leads a desperate military campaign to defeat the White Whale.",
+      "Subaru confronts the Witch Cult and its Sin Archbishop, ultimately overcoming his hubris and inner demons to save everyone."
+    ]
   },
   {
     "id": "if-sloth",
