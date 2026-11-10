@@ -220,7 +220,14 @@
     "releaseOrder": 10,
     "chronologicalOrder": 10,
     "status": "ongoing",
-    "summary": "After Aldebaran's failed scheme, Subaru heads to the Royal Capital to find a Sin Archbishop who holds stolen names and memories, while a hidden conspiracy threatens the Kingdom."
+    "summary": "After Aldebaran's failed scheme, Subaru heads to the Royal Capital to find a Sin Archbishop who holds stolen names and memories, while a hidden conspiracy threatens the Kingdom.",
+    "description": "Following Aldebaran's defeat, Subaru travels to the Royal Capital to recover devoured memories from a captured Sin Archbishop. However, his mission intersects with a deep-seated conspiracy as a secret organization infiltrates Lugunica's government, threatening to plunge the Royal Selection and the entire Kingdom into chaos.",
+    "keyEvents": [
+      "Subaru heads to the Royal Capital after learning that the captured Sin Archbishop of Gluttony may hold the key to restoring lost names and memories.",
+      "Filore, a representative of the Divine Dragon Church, presents her credentials to the Council of Wise Men and emerges as a unexpected new Royal Selection candidate.",
+      "A shadow organization known as the 'Beloved Children', guided by their mysterious 'Mother', begins manipulating high-level Lugunican politics.",
+      "The candidate camps are forced into a battle against an insidious internal plot that aims to dismantle the Kingdom from within."
+    ]
   },
   {
     "id": "ova-memory-snow",
