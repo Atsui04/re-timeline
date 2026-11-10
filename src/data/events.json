@@ -9,7 +9,14 @@
     "releaseOrder": 1,
     "chronologicalOrder": 1,
     "status": "completed",
-    "summary": "Subaru is pulled into another world with nothing but his phone. After helping a silver-haired girl search for her stolen insignia, he is killed, and wakes up exactly where he started."
+    "summary": "Subaru is pulled into another world with nothing but his phone and bag of groceries. After helping a silver-haired girl search for her stolen insignia, he is killed, and wakes up exactly where he started.",
+    "description": "Subaru is on his way home from a convenience store when he is suddenly transported to the Kingdom of Lugunica. Sure he must have been given great powers, he is quickly proven wrong when a group of thugs beats him up. A silver-haired girl with amethyst eyes steps in, and Subaru offers to help her track down a thief. When the search ends in a double murder, he finds himself back before it all began, holding a power he calls Return by Death. He resolves to use it to save the girl from the fate she was meant to meet.",
+    "keyEvents": [
+      "Subaru is transported to the Kingdom of Lugunica and beaten by thugs.",
+      "A silver-haired girl rescues him, and he offers to help find her stolen insignia.",
+      "During the search, both of them are killed by an unknown assailant.",
+      "Subaru returns to the moment before they met and resolves to save her."
+    ]
   },
   {
     "id": "if-pride",
@@ -17,7 +24,14 @@
     "title": "Pride IF",
     "branchesFrom": "arc-1",
     "source": ["ln"],
-    "decision": "After numerous deaths at the hands of thugs in the capital, Subaru decides not to call for Reinhardt's help and does not ask to be saved."
+    "decision": "After numerous deaths at the hands of thugs in the capital, Subaru decides not to call for Reinhardt's help and does not ask to be saved.",
+    "description": "Rejecting outside help during his very first loop, Subaru falls into a dark spiral of self-reliance and madness. Dying dozens of times just to defeat minor thugs, he eventually becomes the notorious Sin Archbishop of Pride, burning the Kingdom to ashes solely to elevate Emilia to the throne.",
+    "consequences": [
+      "Subaru refuses to call Reinhard for help, relying strictly on endless deaths to brute-force his way through every obstacle.",
+      "He joins forces with Elsa Granhiert and Meili, building a covert criminal empire to eliminate all of Emilia's political rivals.",
+      "Subaru orchestrates the destruction of the Royal Capital, setting it ablaze to showcase Emilia as the savior who stops the ultimate evil.",
+      "Achieving his twisted goal, Subaru willingly allows Reinhard to cut him down, dying satisfied after making Emilia the sole viable ruler."
+    ]
   },
   {
     "id": "arc-2",
@@ -29,7 +43,14 @@
     "releaseOrder": 2,
     "chronologicalOrder": 2,
     "status": "completed",
-    "summary": "Subaru wakes in the mansion of Margrave Roswaal after a near-fatal wound and asks to stay on as a worker. For a few days, life is almost peaceful, but that calm doesn't last."
+    "summary": "Subaru wakes in the mansion of Margrave Roswaal after a near-fatal wound and asks to stay on as a worker. For a few days, life is almost peaceful, but that calm doesn't last.",
+    "description": "While working as a butler alongside the twin maids Ram and Rem, Subaru unexpectedly finds himself murdered in his sleep. Determined to find the culprit, he uses his loops to earn everyone's trust and hunt down the would-be assassin lurking within the estate.",
+    "keyEvents": [
+      "Subaru awakens at Roswaal Manor and starts working as a butler alongside the twin maids, Ram and Rem.",
+      "After experiencing multiple mysterious deaths in his sleep, he discovers that a fatal curse is targeting him.",
+      "He traces the source to a nearby village and ventures into the dangerous Mabeast-infested forest alongside Rem and Beatrice.",
+      "Subaru confronts the beasts, saves the lost children, and breaks the curse, finally escaping the deadly loop."
+    ]
   },
   {
     "id": "if-wrath",
@@ -37,7 +58,14 @@
     "title": "Wrath IF",
     "branchesFrom": "arc-2",
     "source": ["ln"],
-    "decision": "Subaru succumbs to paranoia and refuses to trust those around him, due to the accumulated burden of deaths and suffering."
+    "decision": "Subaru succumbs to paranoia and refuses to trust those around him, due to the accumulated burden of deaths and suffering.",
+    "description": "Driven to insanity by the fatal loops at Roswaal Manor, Subaru panics, incapacitates Ram, and takes her captive. Unable to trust anyone and perceiving the world only in monochrome, he flees to form a ruthless criminal syndicate that controls the Kingdom from the shadows.",
+    "consequences": [
+      "Subaru breaks Ram's leg, takes her prisoner, and abandons Roswaal Manor, completely severing his ties with Emilia's camp.",
+      "He creates 'Pleiades', a massive crime syndicate, relying on coin flips and extreme paranoia to protect himself from betrayal.",
+      "His psychological trauma distorts his vision, making him see everyone except a few key figures as colorless, untrustworthy silhouettes.",
+      "After his underground empire falls, Subaru visits the captive Ram and willingly lets her strangle him to finally end his suffering."
+    ]
   },
   {
     "id": "arc-3",
@@ -49,7 +77,14 @@
     "releaseOrder": 3,
     "chronologicalOrder": 3,
     "status": "completed",
-    "summary": "After the mansion, Subaru heads back to the capital to find answers. Instead he hits rock bottom, and has to decide who he is without anyone to lean on."
+    "summary": "After the mansion, Subaru heads back to the capital to find answers. Instead he hits rock bottom, and has to decide who he is without anyone to lean on.",
+    "description": "Traveling to the Royal Capital for the start of the Royal Selection, Subaru makes a costly public blunder that strains his relationship with Emilia, leaving him behind to face his deepest insecurities. Supported only by Rem, he must rally rival political camps to face terrifying new threats: the dreaded White Whale and the zealous Witch Cult.",
+    "keyEvents": [
+      "Subaru attends the Royal Selection ceremony in the capital, but a humiliating public outburst leads to a falling out with Emilia.",
+      "Left behind in the city, he confronts intense personal despair while news of approaching danger reaches Roswaal Manor.",
+      "He forges fragile alliances with the other candidate camps and leads a desperate military campaign to defeat the White Whale.",
+      "Subaru confronts the Witch Cult and its Sin Archbishop, ultimately overcoming his hubris and inner demons to save everyone."
+    ]
   },
   {
     "id": "if-sloth",
@@ -57,7 +92,14 @@
     "title": "Sloth IF",
     "branchesFrom": "arc-3",
     "source": ["ln"],
-    "decision": "When the situation in the capital becomes unbearable, Subaru suggests that he and Rem run away together to the ends of the earth."
+    "decision": "When the situation in the capital becomes unbearable, Subaru suggests that he and Rem run away together to the ends of the earth.",
+    "description": "Overwhelmed by the brutal loops and despair in the Royal Capital, Subaru convinces Rem to abandon the Royal Selection and flee the country together. Settling in the eastern nation of Kararagi, they build a quiet, peaceful family life far away from the dangers of Lugunica.",
+    "consequences": [
+      "Subaru and Rem run away to Kararagi, leaving Emilia, Roswaal Manor, and the Witch Cult conflict behind.",
+      "They adapt to a completely new culture, start a family, and eventually have two children, Rigel and Spica.",
+      "Emilia's camp collapses in their absence, leading to the destruction of Arlam Village and Roswaal Manor.",
+      "Subaru lives out a peaceful human lifespan, forever carrying the quiet guilt of the world he chose to abandon."
+    ]
   },
   {
     "id": "arc-4",
@@ -69,7 +111,14 @@
     "releaseOrder": 4,
     "chronologicalOrder": 4,
     "status": "completed",
-    "summary": "Subaru and Emilia travel to a hidden village where a trial awaits. Each step forward forces them to face the past they have been avoiding."
+    "summary": "Subaru and Emilia travel to a hidden village where a trial awaits. Each step forward forces them to face the past they have been avoiding.",
+    "description": "Retreating to the isolated Sanctuary to find answers, Subaru and Emilia discover a trapped population and a barrier that requires passing ancient Trials to break. As secrets about Roswaal, the Witches, and the Sanctuary come to light, Subaru must battle threats on two fronts: fatal strikes at the manor and a terrifying Great Witchbeast.",
+    "keyEvents": [
+      "Subaru and Emilia travel to the mysterious Sanctuary, finding the villagers trapped behind a ancient magical barrier.",
+      "Emilia and Subaru undertake the grueling Trials of the Sanctuary, forcing them to relive and face their deeply buried pasts.",
+      "Subaru endures nightmare loops involving lethal attacks at Roswaal Manor and the devastating arrival of the Great Rabbit.",
+      "Through trust, strategic coordination, and emotional growth, Subaru unites his allies to defeat the threats and free the Sanctuary."
+    ]
   },
   {
     "id": "if-greed",
@@ -77,7 +126,14 @@
     "title": "Greed IF",
     "branchesFrom": "arc-4",
     "source": ["ln"],
-    "decision": "During the trials at the Sanctuary, Subaru forms a contract with Echidna (the Witch of Greed)."
+    "decision": "During the trials at the Sanctuary, Subaru forms a contract with Echidna (the Witch of Greed).",
+    "description": "Desperate to achieve a flawless victory in the Sanctuary, Subaru accepts Echidna's proposal and forms a contract with the Witch of Greed. By abusing Return by Death millions of times to test every outcome, he becomes an emotionally hollow strategist guided solely by her counsel.",
+    "consequences": [
+      "Subaru relies on Echidna for every decision, using Return by Death over 100 million times for trivial trials and minor mistakes.",
+      "He secures a flawless physical outcome for the Sanctuary and Roswaal Manor, but at the cost of his own sanity and humanity.",
+      "Emilia becomes completely dependent on Subaru, while the rest of the camp is reduced to pawns in his endless trial-and-error calculations.",
+      "Subaru continues his everyday life as a broken, smiling shell of himself, trapped in an endless loop of self-sacrifice."
+    ]
   },
   {
     "id": "arc-5",
@@ -89,7 +145,14 @@
     "releaseOrder": 5,
     "chronologicalOrder": 5,
     "status": "completed",
-    "summary": "A year after the Sanctuary, Emilia's camp is lured to the watergate city of Priestella, where rival camps meet. When the Witch Cult attacks, Subaru must unite them all to save the city."
+    "summary": "A year after the Sanctuary, Emilia's camp is lured to the watergate city of Priestella, where rival camps meet. When the Witch Cult attacks, Subaru must unite them all to save the city.",
+    "description": "A year of peaceful preparation ends when all five Royal Selection candidates assemble in the Watergate City of Priestella under suspicious pretenses. The gathering turns into an all-out war when multiple Sin Archbishops launch a coordinated siege, forcing Subaru to rally former rivals into a unified defense force to reclaim the city.",
+    "keyEvents": [
+      "The Emilia Camp arrives at the Watergate City of Priestella and unexpectedly reunites with the other four candidate camps.",
+      "The Witch Cult launches a surprise attack, with multiple Sin Archbishops seizing control of key city sluice gates and towers.",
+      "Subaru uses the city's broadcast system to deliver an inspiring speech that rallies the demoralized citizens and candidates.",
+      "The allied forces execute a coordinated counteroffensive across the city to defeat the Archbishops and liberate Priestella."
+    ]
   },
   {
     "id": "arc-6",
@@ -101,7 +164,14 @@
     "releaseOrder": 6,
     "chronologicalOrder": 6,
     "status": "completed",
-    "summary": "Emilia's camp heads to the Pleiades Watchtower in search of a Sage's knowledge. Amid trials, witchbeasts and a possible traitor, Subaru suffers a sudden loss of memory."
+    "summary": "Emilia's camp heads to the Pleiades Watchtower in search of a Sage's knowledge. Amid trials, witchbeasts and a possible traitor, Subaru suffers a sudden loss of memory.",
+    "description": "Seeking a cure for the victims left broken after the battle of Priestella, Subaru and his allies journey across a deadly desert to the mysterious Pleiades Watchtower. Inside the towering labyrinth, they are forced to navigate grueling ancient tests, bloodthirsty beasts, and deadly internal suspicions while Subaru is struck by sudden amnesia.",
+    "keyEvents": [
+      "Subaru and the alliance cross the treacherous Augria Sand Dunes to reach the legendary Pleiades Watchtower.",
+      "The group meets Shaula, the guardian of the tower, and begins facing a set of complex, trial-based challenges.",
+      "Subaru mysteriously loses all his memories of this world, throwing the group into chaos and paranoia.",
+      "Besieged by witchbeasts and the Sin Archbishops of Gluttony, Subaru struggles to regain his resolve and survive the lethal tower loops."
+    ]
   },
   {
     "id": "if-gluttony",
@@ -109,7 +179,14 @@
     "title": "Gluttony IF",
     "branchesFrom": "arc-6",
     "source": ["ln"],
-    "decision": "Instead of choosing acceptance and trust in his allies, Subaru becomes obsessed with restoring his own \"self\" at any cost."
+    "decision": "Instead of choosing acceptance and trust in his allies, Subaru becomes obsessed with restoring his own \"self\" at any cost.",
+    "description": "Diverging during Arc 6 when amnesiac Subaru refuses to trust his companions, he becomes consumed by a twisted obsession to reconstruct his lost self. Murdering his friends to read their Books of the Dead, he adopts the title of Gluttony, traveling with hallucinations of his victims while leaving destruction in his wake.",
+    "consequences": [
+      "Subaru slaughters his closest friends inside the Pleiades Watchtower, taking their names and memories into himself.",
+      "He loses his remaining sanity, conversing with friendly, vivid hallucinations of the very people he murdered.",
+      "Embracing the sin of Gluttony, he leaves entire villages slaughtered across Northern Lugunica as he fruitlessly tries to piece together who he used to be.",
+      "He wanders the world completely alone alongside Shaula, trapped in an inescapable cycle of guilt, denial, and madness."
+    ]
   },
   {
     "id": "arc-7",
@@ -121,7 +198,14 @@
     "releaseOrder": 7,
     "chronologicalOrder": 7,
     "status": "completed",
-    "summary": "Subaru wakes in the jungles of the Vollachia Empire and helps a deposed emperor named Abel reclaim his throne. But signs of a looming disaster begin to appear."
+    "summary": "Subaru wakes in the jungles of the Vollachia Empire and helps a deposed emperor named Abel reclaim his throne. But signs of a looming disaster begin to appear.",
+    "description": "Teleported to the harsh southern Vollachia Empire alongside a newly awakened Rem, Subaru is drawn into a violent civil war. To return home, he allies himself with the deposed Emperor Vincent Abellux, navigating imperial politics and deadly battlefields while a catastrophic prophecy threatens the entire nation.",
+    "keyEvents": [
+      "Subaru awakens in the dangerous Buddheim Jungle with Rem and Rem's former enemy, finding himself far from his allies.",
+      "He crosses paths with the ousted Imperial Emperor, Vincent Abellux (Abel), and forms a reluctant alliance to help him reclaim the throne.",
+      "Subaru participates in tactical military campaigns across Vollachia, recruiting powerful Divine Generals to Abel's cause.",
+      "As conflict spreads and Subaru undergoes a shocking physical transformation, ominous stargazing prophecies signal an impending apocalypse."
+    ]
   },
   {
     "id": "arc-8",
@@ -133,7 +217,14 @@
     "releaseOrder": 8,
     "chronologicalOrder": 8,
     "status": "completed",
-    "summary": "The Great Disaster begins. Subaru and his allies retreat from the Imperial Capital, fighting the undead and trying to stop the destruction of the empire."
+    "summary": "The Great Disaster begins. Subaru and his allies retreat from the Imperial Capital, fighting the undead and trying to stop the destruction of the empire.",
+    "description": "The apocalyptic Great Disaster engulfs Vollachia as an army of resurrected undead sweeps across the nation. Forced into a strategic retreat alongside former foes and newly reunited allies, Subaru and the Emilia Camp fight to halt the Empire's total destruction and put an end to the necromantic threat.",
+    "keyEvents": [
+      "The Great Disaster manifests across Vollachia, resurrecting fallen figures and soldiers as an unstoppable undead horde.",
+      "Subaru and his allies execute a chaotic escape from the Imperial Capital of Lupugana while fighting off constant zombie ambush attempts.",
+      "Reuniting with the main Emilia Camp and the Pleiades Battalion, Subaru resolves his tensions with Vincent to form a unified war council.",
+      "The allied forces wage a desperate, multi-front war against the resurrected legends to break the undead commander's siege and save the Empire."
+    ]
   },
   {
     "id": "arc-9",
@@ -145,7 +236,14 @@
     "releaseOrder": 9,
     "chronologicalOrder": 9,
     "status": "completed",
-    "summary": "With Vollachia rebuilding, the Lugunicans start for home. At the Pleiades Watchtower, Subaru lands in his worst predicament yet, captured by Al."
+    "summary": "With Vollachia rebuilding, the Lugunicans start for home. At the Pleiades Watchtower, Subaru lands in his worst predicament yet, captured by Al.",
+    "description": "As Vollachia begins to rebuild after the Great Disaster, the Lugunican delegation prepares to head home. However, an escort mission to the Pleiades Watchtower takes a shocking turn when Aldebaran turns against his allies, capturing Subaru in a desperate bid to reshape destiny at any cost.",
+    "keyEvents": [
+      "Following Priscilla's death and the end of the war, the Lugunican camps assist in clearing remaining threats before departing Vollachia.",
+      "Subaru and his companions accompany Al to the Pleiades Watchtower to inspect a specific Book of the Dead.",
+      "Al betrays the group, ambushing and sealing Subaru away to fulfill a cryptic, world-altering objective.",
+      "With Subaru trapped, Al sets out toward Kararagi with his allies, forcing the remaining camps to launch a high-stakes rescue."
+    ]
   },
   {
     "id": "arc-10",
@@ -157,7 +255,14 @@
     "releaseOrder": 10,
     "chronologicalOrder": 10,
     "status": "ongoing",
-    "summary": "After Aldebaran's failed scheme, Subaru heads to the Royal Capital to find a Sin Archbishop who holds stolen names and memories, while a hidden conspiracy threatens the Kingdom."
+    "summary": "After Aldebaran's failed scheme, Subaru heads to the Royal Capital to find a Sin Archbishop who holds stolen names and memories, while a hidden conspiracy threatens the Kingdom.",
+    "description": "Following Aldebaran's defeat, Subaru travels to the Royal Capital to recover devoured memories from a captured Sin Archbishop. However, his mission intersects with a deep-seated conspiracy as a secret organization infiltrates Lugunica's government, threatening to plunge the Royal Selection and the entire Kingdom into chaos.",
+    "keyEvents": [
+      "Subaru heads to the Royal Capital after learning that the captured Sin Archbishop of Gluttony may hold the key to restoring lost names and memories.",
+      "Filore, a representative of the Divine Dragon Church, presents her credentials to the Council of Wise Men and emerges as a unexpected new Royal Selection candidate.",
+      "A shadow organization known as the 'Beloved Children', guided by their mysterious 'Mother', begins manipulating high-level Lugunican politics.",
+      "The candidate camps are forced into a battle against an insidious internal plot that aims to dismantle the Kingdom from within."
+    ]
   },
   {
     "id": "ova-memory-snow",
@@ -168,7 +273,14 @@
     "source": ["anime"],
     "releaseOrder": 3.1,
     "chronologicalOrder": 2.5,
-    "summary": "While preparing a date with Emilia, Subaru scouts the nearby village for the perfect spot. Then a sudden cold sweeps the mansion, and the date becomes the least of his worries."
+    "summary": "While preparing a date with Emilia, Subaru scouts the nearby village for the perfect spot. Then a sudden cold sweeps the mansion, and the date becomes the least of his worries.",
+    "description": "Set during the peaceful break between Arcs 2 and 3, Subaru plans a secret date with Emilia in Arlam Village. However, a sudden, mysterious cold wave strikes Roswaal Manor, turning his romantic plans into a chaotic, lighthearted event involving the whole estate.",
+    "keyEvents": [
+      "Subaru tries to secretly scout a date location in Arlam Village, but the local children immediately spot him and show him a hidden flower field.",
+      "An unnatural freezing phenomenon begins spreading throughout Roswaal Manor, causing windows to ice over and flowers to wilt.",
+      "The source of the cold wave is revealed to be Puck releasing accumulated mana, forcing everyone to adapt to an unexpected blizzard.",
+      "Subaru turns the crisis into a fun festival, holding a mansion-wide snow sculpture competition to celebrate with Emilia."
+    ]
   },
   {
     "id": "ova-frozen-bond",
@@ -180,6 +292,13 @@
     "releaseOrder": 3.2,
     "chronologicalOrder": 0,
     "adaptationOf": "Re:Zero Prequel: Bonds of Ice",
-    "summary": "In the frozen Elior Forest, young Emilia lives with the great spirit Puck, shunned for her looks. When the Arbitrator Melakuera appears, her right to stay alive is questioned."
+    "summary": "In the frozen Elior Forest, young Emilia lives with the great spirit Puck, shunned for her looks. When the Arbitrator Melakuera appears, her right to stay alive is questioned.",
+    "description": "Long before meeting Subaru, Emilia lives a lonely existence in the frozen Elior Forest alongside her spirit guardian, Puck. Feared by villagers for her resemblance to the Witch of Envy, she must navigate her isolated life until an ancient entity challenges her right to exist.",
+    "keyEvents": [
+      "Emilia protects a local family from a wild monster, but her terrifying power and appearance only deepen the locals' fear and prejudice.",
+      "Deepening her bond with Puck, Emilia struggles with her isolation and the burden of her magical origin.",
+      "Melakuera, the Arbitrator of Spirits, deems Emilia a catastrophic threat to the world and moves to eliminate her.",
+      "Emilia and Puck fight together against Melakuera, firmly choosing her right to live and setting the stage for her entry into the Royal Selection."
+    ]
   }
 ]

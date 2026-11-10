@@ -8,13 +8,6 @@ interface IfModalContentProps {
 }
 
 function IfModalContent({ branch, parentLabel }: IfModalContentProps) {
-  const temp = [
-    "Consequence 1",
-    "Consequence 2",
-    "Consequence 3",
-    "Consequence 4",
-  ];
-
   return (
     <>
       <div className="flex flex-col gap-1">
@@ -29,18 +22,22 @@ function IfModalContent({ branch, parentLabel }: IfModalContentProps) {
         <p className="text-what-if text-small-regular">Decision</p>
         <p className="text-body text-fg">{branch.decision}</p>
       </div>
-      <p className="text-body text-fg">{branch.decision}</p>
-      <div className="flex flex-col gap-3">
-        <p className="text-small-medium text-fg-muted">Consequences</p>
-        <ul className="flex flex-col gap-2">
-          {temp.map((c) => (
-            <li className="relative" key={c}>
-              <span className="bg-what-if absolute top-2.25 left-0 size-1.5 rounded-full"></span>
-              <p className="text-fg text-body pl-5">{c}</p>
-            </li>
-          ))}
-        </ul>
-      </div>
+      <p className="text-body text-fg">
+        {branch.description ? branch.description : branch.decision}
+      </p>
+      {branch.consequences && (
+        <div className="flex flex-col gap-3">
+          <p className="text-small-medium text-fg-muted">Consequences</p>
+          <ul className="flex flex-col gap-2">
+            {branch.consequences.map((c) => (
+              <li className="relative" key={c}>
+                <span className="bg-what-if absolute top-2.25 left-0 size-1.5 rounded-full"></span>
+                <p className="text-fg text-body pl-5">{c}</p>
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
       <div className="flex gap-2">
         <Badge variant="branch">IF</Badge>
         <Badge variant="default">{SOURCE_LABELS[branch.source[0]]}</Badge>
