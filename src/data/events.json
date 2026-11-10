@@ -182,7 +182,14 @@
     "releaseOrder": 8,
     "chronologicalOrder": 8,
     "status": "completed",
-    "summary": "The Great Disaster begins. Subaru and his allies retreat from the Imperial Capital, fighting the undead and trying to stop the destruction of the empire."
+    "summary": "The Great Disaster begins. Subaru and his allies retreat from the Imperial Capital, fighting the undead and trying to stop the destruction of the empire.",
+    "description": "The apocalyptic Great Disaster engulfs Vollachia as an army of resurrected undead sweeps across the nation. Forced into a strategic retreat alongside former foes and newly reunited allies, Subaru and the Emilia Camp fight to halt the Empire's total destruction and put an end to the necromantic threat.",
+    "keyEvents": [
+      "The Great Disaster manifests across Vollachia, resurrecting fallen figures and soldiers as an unstoppable undead horde.",
+      "Subaru and his allies execute a chaotic escape from the Imperial Capital of Lupugana while fighting off constant zombie ambush attempts.",
+      "Reuniting with the main Emilia Camp and the Pleiades Battalion, Subaru resolves his tensions with Vincent to form a unified war council.",
+      "The allied forces wage a desperate, multi-front war against the resurrected legends to break the undead commander's siege and save the Empire."
+    ]
   },
   {
     "id": "arc-9",
