@@ -163,7 +163,14 @@
     "releaseOrder": 7,
     "chronologicalOrder": 7,
     "status": "completed",
-    "summary": "Subaru wakes in the jungles of the Vollachia Empire and helps a deposed emperor named Abel reclaim his throne. But signs of a looming disaster begin to appear."
+    "summary": "Subaru wakes in the jungles of the Vollachia Empire and helps a deposed emperor named Abel reclaim his throne. But signs of a looming disaster begin to appear.",
+    "description": "Teleported to the harsh southern Vollachia Empire alongside a newly awakened Rem, Subaru is drawn into a violent civil war. To return home, he allies himself with the deposed Emperor Vincent Abellux, navigating imperial politics and deadly battlefields while a catastrophic prophecy threatens the entire nation.",
+    "keyEvents": [
+      "Subaru awakens in the dangerous Buddheim Jungle with Rem and Rem's former enemy, finding himself far from his allies.",
+      "He crosses paths with the ousted Imperial Emperor, Vincent Abellux (Abel), and forms a reluctant alliance to help him reclaim the throne.",
+      "Subaru participates in tactical military campaigns across Vollachia, recruiting powerful Divine Generals to Abel's cause.",
+      "As conflict spreads and Subaru undergoes a shocking physical transformation, ominous stargazing prophecies signal an impending apocalypse."
+    ]
   },
   {
     "id": "arc-8",
