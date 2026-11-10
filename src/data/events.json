@@ -238,7 +238,14 @@
     "source": ["anime"],
     "releaseOrder": 3.1,
     "chronologicalOrder": 2.5,
-    "summary": "While preparing a date with Emilia, Subaru scouts the nearby village for the perfect spot. Then a sudden cold sweeps the mansion, and the date becomes the least of his worries."
+    "summary": "While preparing a date with Emilia, Subaru scouts the nearby village for the perfect spot. Then a sudden cold sweeps the mansion, and the date becomes the least of his worries.",
+    "description": "Set during the peaceful break between Arcs 2 and 3, Subaru plans a secret date with Emilia in Arlam Village. However, a sudden, mysterious cold wave strikes Roswaal Manor, turning his romantic plans into a chaotic, lighthearted event involving the whole estate.",
+    "keyEvents": [
+      "Subaru tries to secretly scout a date location in Arlam Village, but the local children immediately spot him and show him a hidden flower field.",
+      "An unnatural freezing phenomenon begins spreading throughout Roswaal Manor, causing windows to ice over and flowers to wilt.",
+      "The source of the cold wave is revealed to be Puck releasing accumulated mana, forcing everyone to adapt to an unexpected blizzard.",
+      "Subaru turns the crisis into a fun festival, holding a mansion-wide snow sculpture competition to celebrate with Emilia."
+    ]
   },
   {
     "id": "ova-frozen-bond",
@@ -250,6 +257,13 @@
     "releaseOrder": 3.2,
     "chronologicalOrder": 0,
     "adaptationOf": "Re:Zero Prequel: Bonds of Ice",
-    "summary": "In the frozen Elior Forest, young Emilia lives with the great spirit Puck, shunned for her looks. When the Arbitrator Melakuera appears, her right to stay alive is questioned."
+    "summary": "In the frozen Elior Forest, young Emilia lives with the great spirit Puck, shunned for her looks. When the Arbitrator Melakuera appears, her right to stay alive is questioned.",
+    "description": "Long before meeting Subaru, Emilia lives a lonely existence in the frozen Elior Forest alongside her spirit guardian, Puck. Feared by villagers for her resemblance to the Witch of Envy, she must navigate her isolated life until an ancient entity challenges her right to exist.",
+    "keyEvents": [
+      "Emilia protects a local family from a wild monster, but her terrifying power and appearance only deepen the locals' fear and prejudice.",
+      "Deepening her bond with Puck, Emilia struggles with her isolation and the burden of her magical origin.",
+      "Melakuera, the Arbitrator of Spirits, deems Emilia a catastrophic threat to the world and moves to eliminate her.",
+      "Emilia and Puck fight together against Melakuera, firmly choosing her right to live and setting the stage for her entry into the Royal Selection."
+    ]
   }
 ]
