@@ -32,11 +32,27 @@
   font-weight: 600;
 }
 
+/* H1/Mobile */
+@utility text-heading-main-mobile {
+  font-family: var(--font-space);
+  font-size: 2rem;
+  line-height: 2.5rem;
+  font-weight: 600;
+}
+
 /* H2/Modal */
 @utility text-heading-modal {
   font-family: var(--font-space);
   font-size: 1.5rem;
   line-height: 2rem;
+  font-weight: 600;
+}
+
+/* H2/Modal/Mobile */
+@utility text-heading-modal-mobile {
+  font-family: var(--font-space);
+  font-size: 1.25rem;
+  line-height: 1.75rem;
   font-weight: 600;
 }
 
@@ -48,11 +64,27 @@
   font-weight: 600;
 }
 
+/* H2/Arc/Mobile */
+@utility text-heading-arc-mobile {
+  font-family: var(--font-space);
+  font-size: 1.125rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
 /* H3/IF */
 @utility text-heading-if {
   font-family: var(--font-space);
   font-size: 1.125rem;
   line-height: 1.75rem;
+  font-weight: 600;
+}
+
+/* H3/IF/Mobile */
+@utility text-heading-if-mobile {
+  font-family: var(--font-space);
+  font-size: 1rem;
+  line-height: 1.5rem;
   font-weight: 600;
 }
 
