@@ -23,13 +23,23 @@ function TimelinePage() {
 
   const currentEvent = events.find((e) => e.id === selectedId);
 
-  let parentLabel: string | undefined;
+  let modalTitle = "";
+  let modalMeta = "";
+  let modalAccent: "default" | "what-if" = "default";
 
   if (currentEvent && isIf(currentEvent)) {
     const parentArc = events.find((e) => e.id === currentEvent.branchesFrom);
-    if (parentArc && isMainEvent(parentArc)) {
-      parentLabel = parentArc.label;
-    }
+    const parentLabel =
+      parentArc && isMainEvent(parentArc) ? parentArc.label : undefined;
+
+    modalTitle = currentEvent.title;
+    modalMeta = parentLabel
+      ? `Branches from ${parentLabel} · LN only`
+      : "LN only";
+    modalAccent = "what-if";
+  } else if (currentEvent) {
+    modalTitle = `${currentEvent.label} · ${currentEvent.title}`;
+    modalMeta = currentEvent.meta;
   }
 
   const filteredEvents = filterBySource(mainEvents, animeOnly);
@@ -53,9 +63,15 @@ function TimelinePage() {
 
   return (
     <>
-      <Modal isOpen={selectedId !== null} onClose={handleClose}>
+      <Modal
+        isOpen={selectedId !== null}
+        onClose={handleClose}
+        title={modalTitle}
+        meta={modalMeta}
+        accent={modalAccent}
+      >
         {currentEvent && isIf(currentEvent) ? (
-          <IfModalContent branch={currentEvent} parentLabel={parentLabel} />
+          <IfModalContent branch={currentEvent} />
         ) : (
           currentEvent && <EventModalContent event={currentEvent} />
         )}
