@@ -15,7 +15,7 @@ function AboutPage() {
         }
         description="A fan-made interactive timeline of the Re:Zero universe. Built as a portfolio project to practice frontend development."
       />
-      <div className="flex max-w-180 flex-col gap-10">
+      <div className="flex max-w-180 flex-col gap-8 md:gap-10">
         <AboutSection title="How it works">
           <p className="text-fg-muted text-body">
             Switch between release order and chronological order. Turn on IF
@@ -34,9 +34,9 @@ function AboutPage() {
         </AboutSection>
         <AboutSection title="Built with">
           <div className="flex flex-col gap-4">
-            <ul className="flex items-center gap-3">
+            <ul className="flex flex-wrap items-center gap-2 md:flex-nowrap md:gap-3">
               {tags.map((t) => (
-                <li key={t}>
+                <li key={t} className="flex">
                   <Badge variant="default">{t}</Badge>
                 </li>
               ))}

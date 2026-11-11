@@ -5,13 +5,13 @@ import HeaderNavItem from "./HeaderNavItem";
 
 function Header() {
   return (
-    <header className="border-b-border h-16 border-b">
+    <header className="border-b-border h-14 border-b md:h-16">
       <Container className="flex h-full items-center justify-between">
-        <Link to="/" className="text-heading-arc">
+        <Link to="/" className="text-heading-if-mobile md:text-heading-arc">
           <span className="text-accent">Re</span>:Timeline
         </Link>
 
-        <nav className="flex items-center gap-6">
+        <nav className="flex items-center gap-4 md:gap-6">
           <HeaderNavItem to="/" end>
             Timeline
           </HeaderNavItem>

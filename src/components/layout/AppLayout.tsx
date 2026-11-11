@@ -8,7 +8,7 @@ function AppLayout() {
     <div className="flex min-h-dvh flex-col">
       <Header />
       <main className="flex-1 py-12">
-        <Container className="flex flex-col gap-12">
+        <Container className="flex flex-col gap-8 md:gap-12">
           <Outlet />
         </Container>
       </main>

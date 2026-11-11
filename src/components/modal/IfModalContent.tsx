@@ -1,30 +1,21 @@
-import { MODAL_TITLE_ID, SOURCE_LABELS } from "../../constants";
+import { SOURCE_LABELS } from "../../constants";
 import type { IfStory } from "../../types";
 import Badge from "../ui/Badge";
 
 interface IfModalContentProps {
   branch: IfStory;
-  parentLabel?: string;
 }
 
-function IfModalContent({ branch, parentLabel }: IfModalContentProps) {
+function IfModalContent({ branch }: IfModalContentProps) {
   return (
     <>
-      <div className="flex flex-col gap-1">
-        <h2 id={MODAL_TITLE_ID} className="text-heading-modal text-fg pr-4">
-          {branch.title}
-        </h2>
-        <p className="text-small-regular text-fg-muted">
-          {parentLabel ? `Branches from ${parentLabel} · LN only` : "LN only"}
-        </p>
-      </div>
       <div className="bg-main border-what-if/40 flex flex-col gap-2 rounded-xl border p-4">
         <p className="text-what-if text-small-regular">Decision</p>
         <p className="text-body text-fg">{branch.decision}</p>
       </div>
-      <p className="text-body text-fg">
-        {branch.description ? branch.description : branch.decision}
-      </p>
+      {branch.description && (
+        <p className="text-body text-fg">{branch.description}</p>
+      )}
       {branch.consequences && (
         <div className="flex flex-col gap-3">
           <p className="text-small-medium text-fg-muted">Consequences</p>
