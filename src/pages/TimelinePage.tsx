@@ -60,7 +60,7 @@ function TimelinePage() {
           currentEvent && <EventModalContent event={currentEvent} />
         )}
       </Modal>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-4 md:gap-8">
         <PageIntro
           title={
             <>
