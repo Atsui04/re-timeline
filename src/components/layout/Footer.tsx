@@ -4,13 +4,13 @@ import Container from "./Container";
 
 function Footer() {
   return (
-    <footer className="border-t-border border-t py-8">
+    <footer className="border-t-border border-t py-6">
       <Container className="flex flex-col gap-4">
         <div className="flex items-center justify-between">
-          <p className="font-space text-base/[24px] font-semibold">
+          <p className="text-heading-if-mobile">
             <span className="text-accent">Re</span>:Timeline
           </p>
-          <nav className="flex items-center gap-6">
+          <nav className="flex items-center gap-4 md:gap-6">
             <Link
               className="text-small-medium text-fg-muted hover:text-fg transition-colors duration-200"
               to="/"
@@ -26,12 +26,12 @@ function Footer() {
             <GitHubLink />
           </nav>
         </div>
-        <div className="flex flex-col gap-2">
-          <p className="text-small-regular text-fg-muted">
+        <div className="flex flex-col gap-1 md:gap-2">
+          <p className="text-caption md:text-small-regular text-fg-muted">
             Fan Project. Re:Zero © Tappei Nagatsuki / Kadokawa / White Fox. Not
             affiliated with the rights holders.
           </p>
-          <p className="text-small-regular text-fg-muted">
+          <p className="text-caption md:text-small-regular text-fg-muted">
             &copy; 2026 Markiian Bushko
           </p>
         </div>
