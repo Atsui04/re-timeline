@@ -11,7 +11,7 @@ function EventModalContent({ event }: EventModalContentProps) {
     <>
       <div className="flex flex-col gap-1">
         <h2 id={MODAL_TITLE_ID} className="text-heading-modal text-fg pr-4">
-          {event.title}
+          {event.label} · {event.title}
         </h2>
         <p className="text-small-regular text-fg-muted">{event.meta}</p>
       </div>
