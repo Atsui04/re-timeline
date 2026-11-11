@@ -14,7 +14,7 @@ interface BadgeProps {
 function Badge({ children, variant }: BadgeProps) {
   return (
     <span
-      className={`text-small-regular rounded-md border px-2 py-1 ${variants[variant]}`}
+      className={`text-small-regular rounded-md border px-2 py-1 whitespace-nowrap ${variants[variant]}`}
     >
       [{children}]
     </span>

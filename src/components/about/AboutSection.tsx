@@ -10,7 +10,10 @@ function AboutSection({ title, children }: AboutSectionProps) {
 
   return (
     <section aria-labelledby={headingId} className="flex flex-col gap-3">
-      <h2 id={headingId} className="text-heading-arc text-fg">
+      <h2
+        id={headingId}
+        className="text-heading-arc-mobile md:text-heading-arc text-fg"
+      >
         {title}
       </h2>
       {children}
