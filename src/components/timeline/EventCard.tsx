@@ -17,14 +17,14 @@ function EventCard({ event, selectedId, onSelect }: EventCardProps) {
 
   return (
     <article
-      className={`hover:border-accent relative flex flex-col gap-4 rounded-xl border p-6 transition-colors duration-200 ${isSelected ? activeCard : defaultCard}`}
+      className={`hover:border-accent relative flex flex-col gap-4 rounded-xl border p-4 transition-colors duration-200 md:p-6 ${isSelected ? activeCard : defaultCard}`}
     >
       <div className="flex flex-col gap-1">
-        <div className="flex items-start justify-between gap-4">
-          <h2 className="text-heading-arc text-fg">
+        <div className="flex flex-col-reverse items-start gap-2 md:flex-row md:justify-between md:gap-4">
+          <h2 className="text-heading-arc-mobile md:text-heading-arc text-fg">
             {event.label} · {event.title}
           </h2>
-          <div className="flex shrink-0 gap-2">
+          <div className="flex shrink-0 flex-wrap gap-2">
             {event.source.map((s) => (
               <Badge key={s} variant="default">
                 {SOURCE_LABELS[s]}
@@ -37,7 +37,9 @@ function EventCard({ event, selectedId, onSelect }: EventCardProps) {
         </div>
         <p className="text-small-regular text-fg-muted">{event.meta}</p>
       </div>
-      <p className="text-body text-fg-muted max-w-180">{event.summary}</p>
+      <p className="text-small-regular md:text-body text-fg max-w-180">
+        {event.summary}
+      </p>
       <button
         aria-haspopup="dialog"
         aria-label={`Open details: ${event.title}`}
