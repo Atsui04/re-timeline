@@ -4,8 +4,10 @@ An interactive timeline of the Re:Zero universe. Switch between release and chro
 
 **[Live demo](https://re-timeline-pi.vercel.app/)** · **[Figma design](https://www.figma.com/design/xyD0WWsdpvFlaPxay3aqWC/Re-Timeline?node-id=190-1588&t=MGvbYGgSdr8t4man-0)**
 
-![Re:Timeline on desktop](docs/desktop.png)
-![Re:Timeline on mobile](docs/mobile.jpg)
+<p>
+  <img src="docs/desktop.png" alt="Re:Timeline on desktop" width="600" />
+  <img src="docs/mobile.jpg" alt="Re:Timeline on mobile" width="200" />
+</p>
 
 ## Features
 
