@@ -1,4 +1,4 @@
-import { Outlet } from "react-router-dom";
+import { Outlet, ScrollRestoration } from "react-router-dom";
 import Header from "./Header";
 import Footer from "./Footer";
 import Container from "./Container";
@@ -12,6 +12,7 @@ function AppLayout() {
           <Outlet />
         </Container>
       </main>
+      <ScrollRestoration />
       <Footer />
     </div>
   );
