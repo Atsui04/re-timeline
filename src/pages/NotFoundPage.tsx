@@ -4,6 +4,7 @@ import PageIntro from "../components/layout/PageIntro";
 function NotFoundPage() {
   return (
     <>
+      <title>404 | Re:Timeline</title>
       <PageIntro
         title={
           <>

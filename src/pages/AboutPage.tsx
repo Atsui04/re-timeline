@@ -7,6 +7,7 @@ function AboutPage() {
 
   return (
     <>
+      <title>About | Re:Timeline</title>
       <PageIntro
         title={
           <>

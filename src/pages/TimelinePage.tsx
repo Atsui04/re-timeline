@@ -77,6 +77,7 @@ function TimelinePage() {
         )}
       </Modal>
       <div className="flex flex-col gap-4 md:gap-8">
+        <title>Re:Timeline - Re:Zero interactive timeline</title>
         <PageIntro
           title={
             <>
