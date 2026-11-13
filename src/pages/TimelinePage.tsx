@@ -1,8 +1,9 @@
 import { useState } from "react";
+import useTimelineParams from "../hooks/useTimelineParams";
 
 import { events } from "../data";
 
-import { isIf, isMainEvent, type Order } from "../types";
+import { isIf, isMainEvent } from "../types";
 import { filterBySource, getBranches, sortByOrder } from "../utils/timeline";
 
 import PageIntro from "../components/layout/PageIntro";
@@ -16,9 +17,14 @@ const mainEvents = events.filter(isMainEvent);
 const ifStories = events.filter(isIf);
 
 function TimelinePage() {
-  const [order, setOrder] = useState<Order>("releaseOrder");
-  const [showIf, setShowIf] = useState(true);
-  const [animeOnly, setAnimeOnly] = useState(false);
+  const {
+    order,
+    showIf,
+    animeOnly,
+    toggleShowIf,
+    toggleAnimeOnly,
+    handleOrder,
+  } = useTimelineParams();
   const [selectedId, setSelectedId] = useState<string | null>(null);
 
   const currentEvent = events.find((e) => e.id === selectedId);
@@ -44,14 +50,6 @@ function TimelinePage() {
 
   const filteredEvents = filterBySource(mainEvents, animeOnly);
   const sortedEvents = sortByOrder(filteredEvents, order);
-
-  function toggleAnimeOnly() {
-    setAnimeOnly((prev) => !prev);
-  }
-
-  function toggleShowIf() {
-    setShowIf((prev) => !prev);
-  }
 
   function handleClose() {
     setSelectedId(null);
@@ -90,7 +88,7 @@ function TimelinePage() {
         />
         <TimelineFilters
           currentOrder={order}
-          onOrder={setOrder}
+          onOrder={handleOrder}
           showIf={showIf}
           animeOnly={animeOnly}
           onShowIfChange={toggleShowIf}
