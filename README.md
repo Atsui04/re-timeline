@@ -52,6 +52,12 @@ The interface was designed in Figma first (dark theme, Space Grotesk + Inter, Au
 - **Modal.** Built on the native `<dialog>` element. On phones it is full-screen with a fixed header and a scrollable body, on larger screens it is a centered card.
 - **Design tokens.** Colors and typography come from Tailwind `@theme` variables and custom text utilities, so the code and the Figma styles use the same names.
 
+## Performance
+
+Lighthouse (mobile, production build): **100** Performance · **100** Accessibility · **100** Best Practices · **100** SEO
+
+Fonts are self-hosted with Fontsource to avoid render-blocking requests to Google Fonts.
+
 ## Project structure
 
 ```
