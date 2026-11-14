@@ -19,6 +19,8 @@ export const CHRONOLOGY = "chronology";
 
 export const ANIME = "anime";
 
+export const EVENT = "event";
+
 export const DEFAULT_NAVIGATE_OPTIONS = {
   replace: true,
   preventScrollReset: true,

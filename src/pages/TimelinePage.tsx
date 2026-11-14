@@ -1,4 +1,3 @@
-import { useState } from "react";
 import useTimelineParams from "../hooks/useTimelineParams";
 
 import { events } from "../data";
@@ -21,11 +20,13 @@ function TimelinePage() {
     order,
     showIf,
     animeOnly,
+    selectedId,
     toggleShowIf,
     toggleAnimeOnly,
     handleOrder,
+    handleClose,
+    handleSelect,
   } = useTimelineParams();
-  const [selectedId, setSelectedId] = useState<string | null>(null);
 
   const currentEvent = events.find((e) => e.id === selectedId);
 
@@ -51,18 +52,10 @@ function TimelinePage() {
   const filteredEvents = filterBySource(mainEvents, animeOnly);
   const sortedEvents = sortByOrder(filteredEvents, order);
 
-  function handleClose() {
-    setSelectedId(null);
-  }
-
-  function handleSelect(arcId: string) {
-    setSelectedId(arcId);
-  }
-
   return (
     <>
       <Modal
-        isOpen={selectedId !== null}
+        isOpen={currentEvent !== undefined}
         onClose={handleClose}
         title={modalTitle}
         meta={modalMeta}
