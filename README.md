@@ -17,6 +17,7 @@ An interactive timeline of the Re:Zero universe. Switch between release and chro
 - **Details modal:** key events for arcs, decision and consequences for IF stories
 - **Responsive:** designed mobile-first, with a full-screen modal on phones
 - **Two pages:** timeline and About, with client-side routing
+- **Shareable URLs:** filters and the open arc are stored in the address
 
 ## Tech stack
 
