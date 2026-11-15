@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { type Arc, type IfStory } from "../types";
-import { filterBySource, sortByOrder } from "./timeline";
+import { filterBySource, getBranches, sortByOrder } from "./timeline";
 
 function makeArc(overrides: Partial<Arc>): Arc {
   const obj: Arc = {
@@ -116,5 +116,63 @@ describe("sortByOrder", () => {
     const sortedEvents = sortByOrder([], "releaseOrder");
 
     expect(sortedEvents).toEqual([]);
+  });
+});
+
+describe("getBranches", () => {
+  it("should return empty array if showIf is false", () => {
+    const ifStory = makeIfStory({ id: "if-story", branchesFrom: "arc-1" });
+
+    const branches = getBranches([ifStory], "arc-1", {
+      showIf: false,
+      animeOnly: false,
+    });
+
+    expect(branches).toEqual([]);
+  });
+
+  it("should return only stories branching from the given event", () => {
+    const ifStory1 = makeIfStory({ id: "if-story-1", branchesFrom: "arc-1" });
+    const ifStory2 = makeIfStory({ id: "if-story-2", branchesFrom: "arc-2" });
+
+    const branches = getBranches([ifStory1, ifStory2], "arc-1", {
+      showIf: true,
+      animeOnly: false,
+    });
+
+    const branchesId = branches.map((b) => b.id);
+
+    expect(branchesId).toEqual(["if-story-1"]);
+  });
+
+  it("should return anime only if stories", () => {
+    const ifStory1 = makeIfStory({
+      id: "if-story-1",
+      branchesFrom: "arc-1",
+      source: ["anime", "ln"],
+    });
+    const ifStory2 = makeIfStory({
+      id: "if-story-2",
+      branchesFrom: "arc-1",
+      source: ["ln"],
+    });
+
+    const branches = getBranches([ifStory1, ifStory2], "arc-1", {
+      showIf: true,
+      animeOnly: true,
+    });
+    const branchesId = branches.map((b) => b.id);
+
+    expect(branchesId).toEqual(["if-story-1"]);
+  });
+
+  it("should return empty array if event id isn't valid", () => {
+    const ifStory = makeIfStory({ id: "if-story", branchesFrom: "arc-1" });
+    const branches = getBranches([ifStory], "arc-99", {
+      showIf: true,
+      animeOnly: false,
+    });
+
+    expect(branches).toEqual([]);
   });
 });
