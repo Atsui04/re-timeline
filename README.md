@@ -1,5 +1,7 @@
 # Re:Timeline
 
+![CI](https://github.com/Atsui04/re-timeline/actions/workflows/ci.yaml/badge.svg)
+
 An interactive timeline of the Re:Zero universe. Switch between release and chronological order, and reveal IF stories branching from the main arcs.
 
 **[Live demo](https://re-timeline-pi.vercel.app/)** · **[Figma design](https://www.figma.com/design/xyD0WWsdpvFlaPxay3aqWC/Re-Timeline?node-id=190-1588&t=MGvbYGgSdr8t4man-0)**
