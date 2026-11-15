@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { type Arc, type IfStory } from "../types";
-import { filterBySource } from "./timeline";
+import { filterBySource, sortByOrder } from "./timeline";
 
 function makeArc(overrides: Partial<Arc>): Arc {
   const obj: Arc = {
@@ -67,5 +67,54 @@ describe("filterBySource", () => {
     const filteredEvents = filterBySource([], true);
 
     expect(filteredEvents).toEqual([]);
+  });
+});
+
+describe("sortByOrder", () => {
+  const event1 = makeArc({
+    id: "arc-1",
+    releaseOrder: 1,
+    chronologicalOrder: 3,
+  });
+  const event2 = makeArc({
+    id: "arc-2",
+    releaseOrder: 2,
+    chronologicalOrder: 1,
+  });
+  const event3 = makeArc({
+    id: "arc-3",
+    releaseOrder: 3,
+    chronologicalOrder: 2,
+  });
+
+  it("should sort array in release order", () => {
+    const sortedEvents = sortByOrder([event3, event1, event2], "releaseOrder");
+    const sortedEventsId = sortedEvents.map((e) => e.id);
+
+    expect(sortedEventsId).toEqual(["arc-1", "arc-2", "arc-3"]);
+  });
+
+  it("should sort array in chronological order", () => {
+    const sortedEvents = sortByOrder(
+      [event3, event1, event2],
+      "chronologicalOrder",
+    );
+    const sortedEventsId = sortedEvents.map((e) => e.id);
+
+    expect(sortedEventsId).toEqual(["arc-2", "arc-3", "arc-1"]);
+  });
+
+  it("should not mutate array", () => {
+    const input = [event3, event1, event2];
+    sortByOrder(input, "releaseOrder");
+    const inputId = input.map((e) => e.id);
+
+    expect(inputId).toEqual(["arc-3", "arc-1", "arc-2"]);
+  });
+
+  it("should return empty array if events are empty", () => {
+    const sortedEvents = sortByOrder([], "releaseOrder");
+
+    expect(sortedEvents).toEqual([]);
   });
 });
